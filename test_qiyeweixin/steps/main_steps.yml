@@ -1,0 +1,8 @@
+-
+ by: XPATH
+ locator: //*[@resource-id="com.tencent.wework:id/dyx" and @text="通讯录"]
+ action: click
+
+
+
+# self._driver.find_element(By.XPATH, '//*[@resource-id="com.tencent.wework:id/dyx" and @text="通讯录"]').click()

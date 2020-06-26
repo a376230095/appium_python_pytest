@@ -1,0 +1,14 @@
+
+- cat:
+    name: "coco"
+    color: "白色"
+    age: 2
+    gender: "female"
+
+
+- dog:
+    name: "Tom"
+    color: "黑色"
+    age: 3
+    gender: "male"
+

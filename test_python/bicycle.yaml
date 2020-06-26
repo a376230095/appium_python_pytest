@@ -1,0 +1,10 @@
+mybicycle1: &bicycle1
+  km: 100
+  battery_level: 5
+
+mybicycle2: &bicycle2
+  km: 100
+  battery_level: 50
+
+default:
+  <<: *bicycle2
