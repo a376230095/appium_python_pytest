@@ -1,0 +1,16 @@
+[
+  "test_appium.py::TestFind::test_find",
+  "test_Touchact.py::Test_TouchAction::test_Touchaction",
+  "test_Touchact11.py::Test_TouchAction::test_Touchaction",
+  "test_t.py::TestActionChains::test_case_click",
+  "test_t.py::TestActionChains::test_moveto",
+  "test.py::TestSelenum::test_add_cookies",
+  "test.py::TestSelenum::test_weixin",
+  "test.py::TestSelenum::test_get_cookies",
+  "test.py::Test_saber::test_hcu",
+  "test_t.py::test_a",
+  "test_t.py::TestRemote::test",
+  "test_t.py::TestA::test_a",
+  "test_t.py::test_b",
+  "test_t.py::TestFind::test_appium_grid"
+]

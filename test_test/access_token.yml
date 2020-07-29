@@ -1,0 +1,15 @@
+#用例说明：企业id和id都正确
+-
+  - ww630f49269e06f865
+  - YC9RRMQcQqGNxapjoeiDIn84mCY7H-aJblz_X9X073U
+  - 0
+#企业id为空，其他正确
+-
+  - ""
+  - YC9RRMQcQqGNxapjoeiDIn84mCY7H-aJblz_X9X073U
+  - 41002
+#应用id为空，其他正确
+-
+  - ww630f49269e06f865
+  - ""
+  - 41004

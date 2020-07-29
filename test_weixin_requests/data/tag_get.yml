@@ -1,0 +1,10 @@
+#data = {
+#            "method": "post",
+#            "url": f"https://qyapi.weixin.qq.com/cgi-bin/externalcontact/get_corp_tag_list",
+#            "params": {"access_token": f"{token}"},
+#        }
+
+method: post
+url: https://qyapi.weixin.qq.com/cgi-bin/externalcontact/get_corp_tag_list
+params:
+  access_token: "{token}"

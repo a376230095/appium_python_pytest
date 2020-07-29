@@ -1,10 +1,9 @@
 from time import sleep
-
 from appium import webdriver
 from appium.webdriver.common.mobileby import MobileBy as By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
-import pytest
+
 
 class TestFind():
     #设置caps的值
@@ -48,6 +47,5 @@ class TestFind():
 
         self.driver.find_element(By.ACCESSIBILITY_ID,"立即开户").click()
         sleep(3)
-        a.
         self.driver.find_element(By.ACCESSIBILITY_ID,"输入验证码").send_keys(123456)
 

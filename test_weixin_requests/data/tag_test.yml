@@ -1,0 +1,4 @@
+method: post
+params:
+  access_token: '1'
+url: https://qyapi.weixin.qq.com/cgi-bin/externalcontact/get_corp_tag_list

@@ -1,0 +1,12 @@
+[
+  "test_get_token.py::TestG::test_a",
+  "test_tag.py::TestTag::test_tag",
+  "test_tag.py::TestTag::test_add_tag",
+  "test_tag.py::TestTag::test_get_tag",
+  "test_tag.py::TestTag::test_get_delete",
+  "test_tag.py::TestTag::test_delete",
+  "test_tag.py::TestTag::test_update",
+  "test_tag.py::TestTag::test_all_tag",
+  "test_tag.py::TestTag::test_all_tag[tong-tong1]",
+  "test_tag.py::TestTag::test_all_tag[tongtong-tongtong1]"
+]

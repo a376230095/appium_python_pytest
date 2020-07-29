@@ -20,6 +20,7 @@ class TestFind():
         #运行appium，前提是要打开appium server
         self.driver=webdriver.Remote("http://127.0.0.1:4723/wd/hub",self.desire_cap)
         self.driver.implicitly_wait(5)
+        self.driver.launch_app()
 
     def test_search(self):
         """
