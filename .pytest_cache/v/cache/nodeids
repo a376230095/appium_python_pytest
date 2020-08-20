@@ -12,5 +12,6 @@
   "test_t.py::TestRemote::test",
   "test_t.py::TestA::test_a",
   "test_t.py::test_b",
-  "test_t.py::TestFind::test_appium_grid"
+  "test_t.py::TestFind::test_appium_grid",
+  "test.py::test_a"
 ]

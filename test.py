@@ -1,22 +1,15 @@
-class Demo:
+def fun1(x):
+    def fun2(y):
+        return x*y
+    return fun2
 
-    def __init__(self, driver=None):
-        print("init")
-        self.driver = None
-        driver=None
-        print(self.driver)
-        if driver is None:
-            self.driver = 1
-        else:
-            self.driver = 2
+a=fun1(10)
+print(a(20))
 
-class Demo2(Demo):
-    def test1(self):
-        return Demo3(self.driver)
-
-class Demo3(Demo):
-    def test(self):
-        return self.driver
-
-demo = Demo2()
-print(demo.test1().test())
+def fun1():
+    x=10
+    def fun2():
+        nonlocal x*=x
+        return x
+    return fun2()
+print(fun1())

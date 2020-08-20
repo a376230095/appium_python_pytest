@@ -3,7 +3,7 @@ from appium import webdriver
 from appium.webdriver.common.mobileby import MobileBy as By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
-
+from test_get_webview_time import 
 class TestFind():
     def setup(self):
         self.desire_cap= {

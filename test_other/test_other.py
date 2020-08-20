@@ -1,11 +1,13 @@
-import yaml
+from test_other.abc import A
+import pytest
 
+class TestB:
+    @pytest.mark.parametrize("a,b,c", [["a", "b", "c"], ["c", "d", "1"], ], ids=["提报告厅", "提报告厅2"])
+    def test_a(self,a,b,c):
+        print(a,b,c)
+        assert False
 
-def getdata():
-    with open("./wework_data.yaml",encoding="utf-8") as f:
-        datas = yaml.safe_load(f)
-    return datas
-
-
-def test_a():
-    print(getdata())
+    @pytest.mark.parametrize("a,b,c", [["a", "b", "c"], ["c", "d", "1"], ], ids=["提报告厅", "提报告厅2"])
+    def test_b(self,a,b,c):
+        print(a,b,c)
+        assert False
