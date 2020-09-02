@@ -1,5 +1,5 @@
-from page.base_page import BasePage
-from page.member_invite_page import MemberInvitePage
+from common.base_page import BasePage
+from common.member_invite_page import MemberInvitePage
 from appium.webdriver.common.mobileby import MobileBy as By
 
 #添加联系人的详细内容的页面

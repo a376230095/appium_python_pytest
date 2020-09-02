@@ -1,6 +1,6 @@
 {
   "test.py::Test_saber::test_hcu": true,
-  "test_t.py": true,
   "test_t.py::TestA::test_a": true,
-  "test_t.py::TestFind::test_appium_grid": true
+  "test_t.py::TestFind::test_appium_grid": true,
+  "test_t.py::test_a": true
 }

@@ -51,7 +51,10 @@ class BasePage():
                 black_elements=self._driver.find_elements(*ele)
                 #当元素的值大于1，表示找到了黑名单弹窗的元素
                 if len(black_elements) > 0:
-                    #就点击一下，让弹窗消失
+                    # 就点击一下，让弹窗消失
+                    # 但是如果弹框不消失，出现了bug，就会一直调用下面的find的函数
+                    # 元素又找不到，因为卡在黑名单对应元素的弹框了，死循环了
+                    # 因此要加入最大的尝试定位黑名单的次数，解除死循环
                     black_elements[0].click()
                     #由于弹窗消失了，所以可以找到元素了，调用自己
                     self.find(locator,value)

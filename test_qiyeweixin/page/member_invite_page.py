@@ -1,6 +1,6 @@
-from page.address_list_page import AddressListPage
-from page.base_page import BasePage
-# from page.contact_add_page import ContactAddPage
+from common.address_list_page import AddressListPage
+from common.base_page import BasePage
+# from commom.contact_add_page import ContactAddPage
 from appium.webdriver.common.mobileby import MobileBy as By
 
 #请联系人的页面
@@ -9,7 +9,7 @@ class MemberInvitePage(BasePage):
     # 点击进入邀请联系人的方法
     def click_manual_add(self):
         #通过local导入，防止python循环导入的问题
-        from page.contact_add_page import ContactAddPage
+        from common.contact_add_page import ContactAddPage
         # 滚动寻找添加成员的元素，怕联系人太多，所以用这个万能的滚动公式
         self._driver.find_element_by_android_uiautomator('new UiScrollable(new UiSelector().'
                                                         'scrollable(true).instance(0)).'

@@ -1,6 +1,6 @@
 from appium import webdriver
-from page.base_page import BasePage
-from page.main import Main
+from common.base_page import BasePage
+from common.main import Main
 
 #这是app的类，负责启动，关闭，重启等操作
 class App(BasePage):

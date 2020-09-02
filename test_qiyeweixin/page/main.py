@@ -1,7 +1,7 @@
 from appium.webdriver.common.mobileby import MobileBy as By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
-from page.address_list_page import AddressListPage
+from common.address_list_page import AddressListPage
 from test_qiyeweixin.page.base_page import BasePage
 
 #进入的主页面

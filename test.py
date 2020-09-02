@@ -1,15 +1,7 @@
-def fun1(x):
-    def fun2(y):
-        return x*y
-    return fun2
+import time
 
-a=fun1(10)
-print(a(20))
-
-def fun1():
-    x=10
-    def fun2():
-        nonlocal x*=x
-        return x
-    return fun2()
-print(fun1())
+from selenium import webdriver
+driver=webdriver.Chrome()
+driver.get("http://129.204.62.26/fsmarket/user.php?act=register")
+time.sleep(3)
+driver.find_element_by_css_selector("[name='extend_field5']").send_keys("abc")

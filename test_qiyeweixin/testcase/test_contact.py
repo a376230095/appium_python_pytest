@@ -1,6 +1,6 @@
 import pytest
 import yaml
-from page.app import App
+from common.app import App
 
 #测试添加联系人的用例的类
 class TestAddTcontact():
