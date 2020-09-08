@@ -1,3 +1,5 @@
+import math
+
 import pytest
 class TestB():
     def test_a(self,login):

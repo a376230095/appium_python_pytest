@@ -5,12 +5,15 @@ from selenium import webdriver
 from assertpy import assert_that
 from common.readExecl import ReadExecl
 ids=["username_error","email_error","password_error"]
+from common.config_log import log
 class TestRegister():
     def setup_class(self):
         self.driver=webdriver.Chrome()
         self.login=RegisterBusiness(self.driver)
+        log.info("start register test")
 
     def setup(self):
+
         self.driver.get("http://129.204.62.26/fsmarket/user.php?act=register")
 
     @pytest.mark.parametrize(("username", "email", "passwd", "r_passwd", "phone", "error_ele", "error_text"),
@@ -35,7 +38,7 @@ class TestRegister():
         # assert_that(result).is_false()
         assert result is False
 
-
+    @pytest.mark.add
     def test_login_email_error(self):
         self.login.login_email_error("a376230095", "37623001qq.com", "12345678", "12345678","13172661165")
 

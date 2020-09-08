@@ -17,7 +17,8 @@ class TestGetCooies():
         sleep(20)
         log_root.info("sleep 20")
         cookies_name=str(datetime.today().strftime("%Y-%m-%d"))+"_cookies.json"
-        log_root.info(f"获取日期的cookies：{cookies_name}")
+        log_root.info(f"获取日期的cookies：{cookies_name}")+
+
         with open(f"../config/{cookies_name}","w") as f:
             cookies=self.b.driver.get_cookies()
             log_root.info(f"获取的cookies为{cookies}")
