@@ -22,7 +22,7 @@ hyperframe==5.2.0
 idna==2.10
 itsdangerous==1.1.0
 jdcal==1.4.1
-Jinja2==2.11.2
+Jinja2==2.11.3
 jsonpath==0.82
 kaitaistruct==0.8
 ldap3==2.7
