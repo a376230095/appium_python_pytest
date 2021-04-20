@@ -36,7 +36,7 @@ passlib==1.7.2
 pluggy==0.13.1
 protobuf==3.11.3
 publicsuffix2==2.20191221
-py==1.8.1
+py==1.10.0
 pyasn1==0.4.8
 pycparser==2.20
 pydivert==2.1.0
