@@ -27,7 +27,7 @@ jsonpath==0.82
 kaitaistruct==0.8
 ldap3==2.7
 MarkupSafe==1.1.1
-mitmproxy==5.1.1
+mitmproxy==8.0.0
 more-itertools==8.3.0
 nose-testconfig==0.10
 openpyxl==3.0.3
