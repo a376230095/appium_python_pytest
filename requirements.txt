@@ -34,7 +34,7 @@ openpyxl==3.0.3
 packaging==20.4
 passlib==1.7.2
 pluggy==0.13.1
-protobuf==3.11.3
+protobuf==3.18.3
 publicsuffix2==2.20191221
 py==1.8.1
 pyasn1==0.4.8
